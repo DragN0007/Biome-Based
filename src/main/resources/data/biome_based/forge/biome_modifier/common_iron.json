@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_plains",
+  "features": [
+    "biome_based:iron_upper",
+    "biome_based:iron_middle",
+    "biome_based:iron_small"
+  ],
+  "step": "underground_ores"
+}

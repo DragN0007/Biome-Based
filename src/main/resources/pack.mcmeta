@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": {
+      "text": "Spawns ores more commonly based on biome, rather than evenly across the entire overworld."
+    },
+    "pack_format": 15
+  }
+}

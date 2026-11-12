@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "#forge:glass/black", "required": false},
+    {"id": "#forge:glass/blue", "required": false},
+    {"id": "#forge:glass/brown", "required": false},
+    {"id": "#forge:glass/colorless", "required": false},
+    {"id": "#forge:glass/cyan", "required": false},
+    {"id": "#forge:glass/gray", "required": false},
+    {"id": "#forge:glass/green", "required": false},
+    {"id": "#forge:glass/light_blue", "required": false},
+    {"id": "#forge:glass/light_gray", "required": false},
+    {"id": "#forge:glass/lime", "required": false},
+    {"id": "#forge:glass/magenta", "required": false},
+    {"id": "#forge:glass/orange", "required": false},
+    {"id": "#forge:glass/pink", "required": false},
+    {"id": "#forge:glass/purple", "required": false},
+    {"id": "#forge:glass/red", "required": false},
+    {"id": "#forge:glass/silica", "required": false},
+    {"id": "#forge:glass/white", "required": false},
+    {"id": "#forge:glass/yellow", "required": false}
+  ]
+}

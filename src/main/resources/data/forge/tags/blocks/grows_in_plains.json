@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wheat",
+    "minecraft:attached_pumpkin_stem",
+    {"id": "dragncrops:rye", "required": false},
+    {"id": "dragncrops:corn", "required": false},
+    {"id": "dragncrops:blueberries", "required": false},
+    {"id": "dragncrops:cantaloupe", "required": false},
+    {"id": "dragncrops:grapes", "required": false},
+    {"id": "dragncrops:cilantro", "required": false},
+    {"id": "dragncrops:honeydew", "required": false},
+    {"id": "dragncrops:strawberries", "required": false},
+    {"id": "dragncrops:red_apple_leaves", "required": false},
+    {"id": "farmersdelight:tomatoes", "required": false},
+    {"id": "farmersdelight:tomatoes_on_rope", "required": false},
+    {"id": "farmersdelight:budding_tomatoes", "required": false}
+  ]
+}

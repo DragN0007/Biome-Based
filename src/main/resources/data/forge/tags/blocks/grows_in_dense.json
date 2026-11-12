@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:carrots",
+    {"id": "dragncrops:blackberries", "required": false},
+    {"id": "dragncrops:garlic", "required": false},
+    {"id": "dragncrops:oregano", "required": false},
+    {"id": "dragncrops:puffball_mushroom", "required": false},
+    {"id": "dragncrops:raspberries", "required": false},
+    {"id": "dragncrops:cherry_leaves", "required": false},
+    {"id": "dragncrops:plum_leaves", "required": false},
+    {"id": "farmersdelight:onions", "required": false}
+  ]
+}

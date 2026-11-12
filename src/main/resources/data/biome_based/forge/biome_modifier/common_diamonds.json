@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_hot/overworld",
+  "features": [
+    "minecraft:ore_diamond_large",
+    "minecraft:ore_diamond_buried",
+    "minecraft:ore_diamond",
+    "biome_based:diamond"
+  ],
+  "step": "underground_ores"
+}

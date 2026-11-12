@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="47,)"
+license="All Rights Reserved, DragN0007"
+#issueTrackerURL="https://discord.gg/2WznNTtVac"
+[[mods]]
+modId="biome_based"
+version="${1.0}"
+displayName="Biome-Based"
+authors="DragN0007"
+description='''
+Spawns ores more commonly and allows crops to grow better based on biome, rather than evenly across the entire overworld.
+'''
+[[dependencies.biome_based]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.biome_based]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
+mixinConfigs = [
+    "mixins.biome_based.json"
+]

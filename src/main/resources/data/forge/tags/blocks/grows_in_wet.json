@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "dragncrops:rice", "required": false},
+    {"id": "dragncrops:cucumbers", "required": false},
+    {"id": "farmersdelight:rice", "required": false},
+    {"id": "farmersdelight:rice_panicles", "required": false}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beetroots",
+    {"id": "dragncrops:purple_potatoes", "required": false},
+    {"id": "dragncrops:purple_carrots", "required": false},
+    {"id": "dragncrops:sugar_beets", "required": false},
+    {"id": "dragncrops:cranberries", "required": false},
+    {"id": "dragncrops:rosemary", "required": false},
+    {"id": "dragncrops:green_apple_leaves", "required": false},
+    {"id": "farmersdelight:cabbages", "required": false}
+  ]
+}

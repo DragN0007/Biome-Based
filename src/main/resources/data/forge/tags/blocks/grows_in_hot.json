@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:attached_melon_stem",
+    {"id": "dragncrops:yellow_carrots", "required": false},
+    {"id": "dragncrops:red_potatoes", "required": false},
+    {"id": "dragncrops:peanuts", "required": false},
+    {"id": "dragncrops:soybeans", "required": false},
+    {"id": "dragncrops:tea", "required": false},
+    {"id": "dragncrops:yellow_apple_leaves", "required": false},
+    {"id": "dragncrops:coconut_leaves", "required": false},
+    {"id": "dragncrops:lime_leaves", "required": false},
+    {"id": "dragncrops:mango_leaves", "required": false}
+  ]
+}
