@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_mountain",
+  "features": [
+    "biome_based:emerald"
+  ],
+  "step": "underground_ores"
+}

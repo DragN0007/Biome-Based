@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_dense",
+  "features": [
+    "biome_based:copper",
+    "biome_based:copper_large"
+  ],
+  "step": "underground_ores"
+}

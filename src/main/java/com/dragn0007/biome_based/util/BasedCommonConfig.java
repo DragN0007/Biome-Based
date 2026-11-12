@@ -6,6 +6,7 @@ public class BasedCommonConfig {
     public static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
     public static final ForgeConfigSpec SPEC;
 
+    public static final ForgeConfigSpec.ConfigValue<Boolean> ENABLE_CROPS;
     public static final ForgeConfigSpec.ConfigValue<Double> FAIL_GROWTH_CHANCE;
     public static final ForgeConfigSpec.ConfigValue<Boolean> SLOWER_CROP_GROWTH;
     public static final ForgeConfigSpec.ConfigValue<Boolean> SLOWER_CROP_GROWTH_GREENHOUSE;
@@ -15,6 +16,7 @@ public class BasedCommonConfig {
 
     static {
         BUILDER.push("Crops");
+        ENABLE_CROPS = BUILDER.define("Biome-Based Crop Growth Enabled", true);
         FAIL_GROWTH_CHANCE = BUILDER.comment("The chance at which a crop fails to grow outside of it's natural biome zone each growth tick. Default is 0.75 (75%).")
                 .define("Crop Fail Growth Chance", 0.75);
         SLOWER_CROP_GROWTH = BUILDER.comment("Should crops grow slower overall?")
@@ -28,7 +30,6 @@ public class BasedCommonConfig {
         GREENHOUSE = BUILDER.comment("Should crops be able to grow normally under glass/ tagged greenhouse blocks?")
                 .define("Greenhouse Blocks Enabled", true);
         BUILDER.pop();
-
         SPEC = BUILDER.build();
     }
 }

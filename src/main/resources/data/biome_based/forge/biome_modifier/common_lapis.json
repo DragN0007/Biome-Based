@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_hot/overworld",
+  "features": [
+    "biome_based:lapis"
+  ],
+  "step": "underground_ores"
+}

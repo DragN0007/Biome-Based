@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_mountain",
+  "features": [
+    "biome_based:coal_upper",
+    "biome_based:coal_lower"
+  ],
+  "step": "underground_ores"
+}

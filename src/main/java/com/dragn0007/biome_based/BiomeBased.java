@@ -10,7 +10,6 @@ import net.minecraftforge.fml.config.ModConfig;
 @Mod(BiomeBased.MODID)
 public class BiomeBased {
     public static final String MODID = "biome_based";
-
     public BiomeBased() {
         MinecraftForge.EVENT_BUS.register(this);
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, BasedCommonConfig.SPEC, "biome-based-common.toml");

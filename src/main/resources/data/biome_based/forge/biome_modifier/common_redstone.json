@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_wet/overworld",
+  "features": [
+    "biome_based:redstone",
+    "biome_based:redstone_lower"
+  ],
+  "step": "underground_ores"
+}

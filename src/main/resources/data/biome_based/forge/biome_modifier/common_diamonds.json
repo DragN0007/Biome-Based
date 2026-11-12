@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#forge:is_hot/overworld",
+  "biomes": "#forge:is_desert",
   "features": [
     "minecraft:ore_diamond_large",
     "minecraft:ore_diamond_buried",

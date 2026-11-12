@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_dry/overworld",
+  "features": [
+    "biome_based:gold",
+    "biome_based:gold_extra",
+    "biome_based:gold_lower"
+  ],
+  "step": "underground_ores"
+}

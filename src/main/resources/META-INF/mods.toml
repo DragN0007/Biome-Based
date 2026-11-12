@@ -8,7 +8,7 @@ version="${1.0}"
 displayName="Biome-Based"
 authors="DragN0007"
 description='''
-Spawns ores more commonly and allows crops to grow better based on biome, rather than evenly across the entire overworld.
+Spawns ores more commonly and changes crop growth based on biome, rather than evenly across the entire overworld.
 '''
 [[dependencies.biome_based]]
 modId = "forge"
