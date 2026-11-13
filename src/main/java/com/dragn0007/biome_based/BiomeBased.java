@@ -1,7 +1,6 @@
 package com.dragn0007.biome_based;
 
 import com.dragn0007.biome_based.util.BasedCommonConfig;
-import net.minecraft.world.entity.animal.TropicalFish;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
