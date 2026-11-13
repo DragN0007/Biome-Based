@@ -1,9 +1,9 @@
 {
-  "feature": "biome_based:ancient_debris_large",
+  "feature": "minecraft:ore_ancient_debris_small",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 512
+      "chance": 64
     },
     {
       "type": "minecraft:in_square"
@@ -11,12 +11,12 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:trapezoid",
+        "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 24
+          "below_top": 8
         },
         "min_inclusive": {
-          "absolute": 8
+          "above_bottom": 8
         }
       }
     },
