@@ -57,6 +57,7 @@ public abstract class GrassBlockMixin extends SpreadingSnowyDirtBlock implements
 
             if (blockstate1.isAir()) {
                 Holder<PlacedFeature> holder;
+                //prevent spawning of random flowers unless in flower forest or sunflower plains
                 if (source.nextInt(8) == 0 && ((level.getBiome(pos).is(Biomes.FLOWER_FOREST) || level.getBiome(pos).is(Biomes.SUNFLOWER_PLAINS)) || !BasedCommonConfig.FLOWER_BIOME_BONEMEAL.get())) {
                     List<ConfiguredFeature<?, ?>> list = level.getBiome(blockpos1).value().getGenerationSettings().getFlowerFeatures();
                     if (list.isEmpty()) continue;
