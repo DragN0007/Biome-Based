@@ -13,6 +13,9 @@ public class BasedCommonConfig {
     public static final ForgeConfigSpec.ConfigValue<Double> FAIL_GROWTH_CHANCE_OVERALL;
     public static final ForgeConfigSpec.ConfigValue<Boolean> SLOWER_CROP_GROWTH_DRY;
     public static final ForgeConfigSpec.ConfigValue<Boolean> GREENHOUSE;
+    public static final ForgeConfigSpec.ConfigValue<Boolean> CRUSH_FLOWERS;
+    public static final ForgeConfigSpec.ConfigValue<Boolean> CRUSH_DOUBLE_PLANTS;
+    public static final ForgeConfigSpec.ConfigValue<Boolean> FLOWER_BIOME_BONEMEAL;
 
     static {
         BUILDER.push("Crops");
@@ -29,6 +32,11 @@ public class BasedCommonConfig {
                 .define("Slower Overall Crop Growth", true);
         GREENHOUSE = BUILDER.comment("Should crops be able to grow normally under glass/ tagged greenhouse blocks?")
                 .define("Greenhouse Blocks Enabled", true);
+        BUILDER.pop();
+        BUILDER.push("Miscellaneous");
+        CRUSH_FLOWERS = BUILDER.define("Crush Flowers When Placing Blocks", true);
+        CRUSH_DOUBLE_PLANTS = BUILDER.define("Crush Tall Plants When Placing Blocks", true);
+        FLOWER_BIOME_BONEMEAL = BUILDER.define("Grass-Only Bonemeal in Non-Flower-Based Biomes", true);
         BUILDER.pop();
         SPEC = BUILDER.build();
     }
